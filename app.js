@@ -6,8 +6,8 @@ app.set('view engine', 'jade');
 
 app.get('/', function (req, res) {
    res.render('index', { 
-       title: 'Hey YCombinator', 
-       message: 'Hello World'
+       title: 'Hey', 
+       message: 'Hello World!'
    });
 })
 
